@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Kimit0 — building playful software</title>
+  <desc id="desc">Dark blue banner with orange and cyan accents for Nacho's GitHub profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071522"/><stop offset=".55" stop-color="#102f46"/><stop offset="1" stop-color="#09111c"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#36d6c7" stop-opacity=".42"/><stop offset="1" stop-color="#36d6c7" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="34" fill="url(#bg)"/>
+  <circle cx="1015" cy="105" r="240" fill="url(#glow)"/>
+  <path d="M0 292C177 234 301 344 487 289s321-95 713-6v77H0z" fill="#f47c20" opacity=".13"/>
+  <g opacity=".12" fill="none" stroke="#a9dce8"><path d="M804 69h255v177H804z"/><path d="M835 99h193v117H835z"/><path d="M865 130h133v55H865z"/></g>
+  <g transform="translate(78 68)" filter="url(#shadow)">
+    <rect width="92" height="92" rx="25" fill="#f47c20"/>
+    <path d="M25 62V30h11v13l17-13h15L48 46l22 16H55L36 48v14z" fill="#fff"/>
+  </g>
+  <text x="78" y="213" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="63" font-weight="800" letter-spacing="-2">Hey, I’m Kimit0.</text>
+  <text x="80" y="258" fill="#a9dce8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">Games · useful apps · playful systems · QA-minded builds</text>
+  <g transform="translate(80 292)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">
+    <rect width="132" height="38" rx="19" fill="#36d6c7"/><text x="22" y="25" fill="#062129">BUILDING</text>
+    <rect x="146" width="128" height="38" rx="19" fill="#ffffff12" stroke="#ffffff2f"/><text x="171" y="25" fill="#fff">LEARNING</text>
+    <rect x="288" width="120" height="38" rx="19" fill="#ffffff12" stroke="#ffffff2f"/><text x="315" y="25" fill="#fff">SHIPPING</text>
+  </g>
+</svg>
